@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 const MemorialWall = () => {
   const [candlesLit, setCandlesLit] = useState(15847);
   const [tributesShared, setTributesShared] = useState(3256);
-  const [visitorsToday, setVisitorsToday] = useState(892);
+  const [visitorsToday] = useState(892);
   const [showTributeForm, setShowTributeForm] = useState(false);
   const [showTributes, setShowTributes] = useState(false);
   
